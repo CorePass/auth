@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License. You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under the
+ * License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ * express or implied. See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.RedirectRequestTypes = void 0;
+var RedirectRequestTypes;
+(function (RedirectRequestTypes) {
+    RedirectRequestTypes["endSession"] = "end_session";
+    RedirectRequestTypes["authorization"] = "authorization";
+})(RedirectRequestTypes = exports.RedirectRequestTypes || (exports.RedirectRequestTypes = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidHlwZXMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9zcmMvdHlwZXMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBOzs7Ozs7Ozs7Ozs7R0FZRzs7O0FBcUJILElBQVksb0JBR1g7QUFIRCxXQUFZLG9CQUFvQjtJQUM5QixrREFBMEIsQ0FBQTtJQUMxQix1REFBK0IsQ0FBQTtBQUNqQyxDQUFDLEVBSFcsb0JBQW9CLEdBQXBCLDRCQUFvQixLQUFwQiw0QkFBb0IsUUFHL0IiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogQ29weXJpZ2h0IDIwMTcgR29vZ2xlIEluYy5cbiAqXG4gKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgXCJMaWNlbnNlXCIpOyB5b3UgbWF5IG5vdCB1c2UgdGhpcyBmaWxlIGV4Y2VwdFxuICogaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXRcbiAqXG4gKiBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjBcbiAqXG4gKiBVbmxlc3MgcmVxdWlyZWQgYnkgYXBwbGljYWJsZSBsYXcgb3IgYWdyZWVkIHRvIGluIHdyaXRpbmcsIHNvZnR3YXJlIGRpc3RyaWJ1dGVkIHVuZGVyIHRoZVxuICogTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiBcIkFTIElTXCIgQkFTSVMsIFdJVEhPVVQgV0FSUkFOVElFUyBPUiBDT05ESVRJT05TIE9GIEFOWSBLSU5ELCBlaXRoZXJcbiAqIGV4cHJlc3Mgb3IgaW1wbGllZC4gU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZFxuICogbGltaXRhdGlvbnMgdW5kZXIgdGhlIExpY2Vuc2UuXG4gKi9cblxuZXhwb3J0IGludGVyZmFjZSBTdHJpbmdNYXAge1xuICBba2V5OiBzdHJpbmddOiBzdHJpbmc7XG59XG5cbi8qKlxuICogUmVwcmVzZW50cyBhIHdpbmRvdy5sb2NhdGlvbiBsaWtlIG9iamVjdC5cbiAqL1xuZXhwb3J0IGludGVyZmFjZSBMb2NhdGlvbkxpa2Uge1xuICBoYXNoOiBzdHJpbmc7XG4gIGhvc3Q6IHN0cmluZztcbiAgb3JpZ2luOiBzdHJpbmc7XG4gIGhvc3RuYW1lOiBzdHJpbmc7XG4gIHBhdGhuYW1lOiBzdHJpbmc7XG4gIHBvcnQ6IHN0cmluZztcbiAgcHJvdG9jb2w6IHN0cmluZztcbiAgc2VhcmNoOiBzdHJpbmc7XG4gIGFzc2lnbih1cmw6IHN0cmluZyk6IHZvaWQ7XG59XG5cbmV4cG9ydCBlbnVtIFJlZGlyZWN0UmVxdWVzdFR5cGVzIHtcbiAgZW5kU2Vzc2lvbiA9ICdlbmRfc2Vzc2lvbicsXG4gIGF1dGhvcml6YXRpb24gPSAnYXV0aG9yaXphdGlvbidcbn0iXX0=
