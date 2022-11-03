@@ -1,4 +1,4 @@
-name: Run Tests
+name: Run Formatter
 
 on:
   push:
@@ -7,16 +7,6 @@ on:
   pull_request:
 
 jobs:
-  unit:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/
-      - run: npm i
-      - run: npm run test
   format:
     runs-on: ubuntu-latest
     steps:
